@@ -1,7 +1,5 @@
 package com.example.todo.userapi.repository;
 
-import com.example.todo.userapi.dto.UserSignupResponseDTO;
-import com.example.todo.userapi.dto.request.UserRequestSignUpDTO;
 import com.example.todo.userapi.entity.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;

@@ -22,3 +22,6 @@ logging.level:
 springdoc:
   swagger-ui:
     path: /myapi.html
+
+jwt:
+  secret : 2aJTrVVdIhuHxFZ5sHAtn4SkVO081zfJPtDquWJyxj1GvQ6Ld8ApovOVXw4/Fwr+P70bpLWDggfbztngAAdevQ==
