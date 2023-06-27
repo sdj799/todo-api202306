@@ -8,7 +8,7 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
-@Setter @Getter @ToString
+@Getter @ToString
 @EqualsAndHashCode(of = "id")
 @NoArgsConstructor @AllArgsConstructor
 @Builder
@@ -38,4 +38,9 @@ public class User {
 //    @ColumnDefault("'COMMON'") //enum 타입은 홑따옴표로 한번더 감싸줘야함
     @Builder.Default
     private Role role = Role.COMMON; //유저 권한
+
+    //등급 수정 메서드
+    public void changeRole(Role role) {
+        this.role = role;
+    }
 }
