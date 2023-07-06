@@ -27,6 +27,7 @@ import java.io.IOException;
 @RestController
 @Slf4j
 @RequiredArgsConstructor
+@CrossOrigin
 @RequestMapping("/api/auth")
 public class UserController {
 

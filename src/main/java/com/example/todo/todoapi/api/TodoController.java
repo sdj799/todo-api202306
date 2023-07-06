@@ -18,6 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 
 @RestController
 @Slf4j
+@CrossOrigin
 @RequiredArgsConstructor
 @RequestMapping("/api/todos")
 //@CrossOrigin(origins = "http://localhost:3000")
